@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "oauthScopes": ["https://www.googleapis.com/auth/gmail.addons.execute", "https://mail.google.com/"],
+  "gmail": {
+    "name": "Email Interaction",
+    "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/receipt_black_24dp.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "getContextualAddOn"
+    }],
+    "primaryColor": "#41f470",
+    "secondaryColor": "#94f441"
+  }
+}
